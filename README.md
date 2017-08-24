@@ -13,7 +13,6 @@ Install all nodejs dependencies
 
     npm install
 
-
 We recommend using popular Ethereum test client [testrpc][4] as a default node:
 
     npm install -g ethereumjs-testrpc
