@@ -1,0 +1,38 @@
+/*
+Implements ERC 20 Token standard: https://github.com/ethereum/EIPs/issues/20
+*/
+
+pragma solidity ^0.4.11;
+
+import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
+import 'zeppelin-solidity/contracts/token/StandardToken.sol';
+import 'zeppelin-solidity/contracts/math/SafeMath.sol';
+
+import "./Token.sol";
+
+contract EdolasToken is StandardToken, Ownable {
+    using SafeMath for uint256;
+
+    string public name = "Edolas Token";
+    uint8 public decimals = 6;
+    string public symbol = "EDT";
+    string public version = 'EDT 1.0';
+
+
+    function mint(address _to, uint256 _value) onlyOwner {
+        totalSupply = totalSupply.add(_value);
+        balances[_to] =  balances[_to].add(_value);
+
+        MintEvent(_to, _value);
+    }
+
+    function destroy(address _from, uint256 _value) onlyOwner {
+        totalSupply = totalSupply.sub(_value);
+        balances[_from] = balances[_from].sub(_value);
+
+        DestroyEvent(_from, _value);
+    }
+
+    event MintEvent(address indexed to, uint value);
+    event DestroyEvent(address indexed from, uint value);
+}
