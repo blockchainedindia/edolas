@@ -1,5 +1,7 @@
 # Edolas
 
+![Edolas][logo]
+
 #### Under development
 
 ### Installation
@@ -45,4 +47,4 @@ Cheer!!
 [2]: https://github.com/trufflesuite/truffle
 [3]: https://www.ethereum.org
 [4]: https://github.com/ethereumjs/testrpc
-
+[logo]: https://github.com/blockchainedindia/edolas/raw/master/app/img/edloas.png "Edolas"
