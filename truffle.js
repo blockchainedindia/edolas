@@ -9,7 +9,8 @@ module.exports = {
     "app.css": [
       "stylesheets/app.css",
       "stylesheets/AdminLTE.min.css"
-    ]
+    ],
+    "images/": "img/"
   }),
   networks: {
     development: {

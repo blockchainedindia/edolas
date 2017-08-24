@@ -7,3 +7,7 @@ environments
 
 # IDE
 .idea
+
+# Misc Files
+.DS_Store
+
