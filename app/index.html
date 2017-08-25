@@ -6,20 +6,66 @@
     <link rel="icon" type="image/png" href="./images/favicon-16x16.png" sizes="16x16" />
     <link rel="icon" type="image/png" href="./images/favicon.png" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="./app.css" rel='stylesheet' type='text/css'>
     <script src="//code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="./app.js"></script>
 </head>
 <body>
     <section class="content-header">
-    <h1>
-        Edolas
-        <small>Request Board</small>
-    </h1>
-</section>
+        <h1>
+            Edolas
+            <small>Request Board</small>
+        </h1>
+    </section>
+    <div class="ful">
+        <div class="center_block container main_body">
+            <div class="ful max">
+                <div class="fourth column pillers left all_col" id="all">
+                    <div class="ful center_text list_head">Requested</div>
+                    <div class="tasks ful"></div>
+                    <div class="left dragable temp hide task-unit">
+                        <div class="ful info">
+                            <input id="TaskHeading" type="text" class="readonly" readonly placeholder="Title">
+                            <textarea id="task-discription" readonly class="readonly" placeholder="Description"></textarea>
+                        </div>
+                        <div class="ful action_bar">
+                            <span class="time"></span>
+                            <a class="right edit" href="#" title="edit">E</a>
+                            <a class="right remove" href="#" title="delete">D</a>
+                        </div>
+                        <div class="progress"></div>
+                    </div>
+                    <div class="left create_task_box">
+                        <div class="ful info">
+                            <p>Request New Task:</p>
+                            <div class="ful relative info_val">
+                                <input id="title" type="text" name="title" required>
+                                <label class="input_label titl" for="title">Title </label>
+                            </div>
+                            <div class="ful relative info_val">
+                                <textarea name="discription" id="discription" required></textarea>
+                                <label class="input_label disc" for="discription">Description</label>
+                            </div>
+                        </div>
+                        <div class="ful action_bar">
+                            <div class="right add_task_button">Add Task</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fourth column pillers left to_do_col" id="todo">
+                    <div class="ful center_text list_head">Assigned</div>
+                    <div class="tasks ful"></div>
+                </div>
+                <div class="fourth column pillers left  progress_col" id="progress">
+                    <div class="ful center_text list_head">In Pursuit</div>
+                    <div class="tasks ful"></div>
+                </div>
+                <div class="fourth column pillers left complet_col" id="complete">
+                    <div class="ful center_text list_head">Completed</div>
+                    <div class="tasks ful"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
