@@ -1,0 +1,13 @@
+# Dependency directory
+node_modules
+
+# Generated files
+build
+environments
+
+# IDE
+.idea
+
+# Misc Files
+.DS_Store
+
