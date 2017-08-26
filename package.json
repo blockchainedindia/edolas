@@ -15,7 +15,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "truffle migrate",
     "console": "truffle console",
-    "start": "truffle serve"
+    "start": ". ./scripts/server.sh",
+    "stop": ". ./scripts/stop.sh"
   },
   "repository": {
     "type": "git",
