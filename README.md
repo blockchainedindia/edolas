@@ -1,6 +1,7 @@
 # Edolas
 
-[![Build Status](https://travis-ci.org/blockchainedindia/edolas.svg?branch=master)](https://travis-ci.org/blockchainedindia/edolas) 
+
+![Join the chat at https://gitter.im/blockchained_india/edolas](https://badges.gitter.im/Join%20Chat.svg) [![Build Status](https://travis-ci.org/blockchainedindia/edolas.svg?branch=master)](https://travis-ci.org/blockchainedindia/edolas) 
 
 ![Edolas][logo]
 
@@ -48,9 +49,14 @@ P.S - There is a lot of work to be done. We are just getting started. :)
 
 Cheer!!
 
+Join us on Telegram:
+
+[![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)][5]
+
 
 [1]: https://github.com/nodejs/node
 [2]: https://github.com/trufflesuite/truffle
 [3]: https://www.ethereum.org
 [4]: https://github.com/ethereumjs/testrpc
 [logo]: https://github.com/blockchainedindia/edolas/raw/master/app/img/edloas.png "Edolas"
+[5]: https://t.me/blockchainedindia
