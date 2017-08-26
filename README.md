@@ -31,7 +31,11 @@ Deploy smart contracts to your blockchain network:
 
 Launch server:
 
-    truffle serve
+    npm start
+
+This will start edolas truffle server and edolas node server.
+
+_May the blockchain be with you!_
 
 
 ## Contributions
