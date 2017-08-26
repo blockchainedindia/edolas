@@ -1,7 +1,7 @@
 # Edolas
 
 
-![Join the chat at https://gitter.im/blockchained_india/edolas](https://badges.gitter.im/Join%20Chat.svg) [![Build Status](https://travis-ci.org/blockchainedindia/edolas.svg?branch=master)](https://travis-ci.org/blockchainedindia/edolas) [![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)][5] [![dependencies Status](https://david-dm.org/blockchainedindia/edolas/status.svg)](https://david-dm.org/blockchainedindia/edolas) [![devDependencies Status](https://david-dm.org/blockchainedindia/edolas/dev-status.svg)](https://david-dm.org/blockchainedindia/edolas?type=dev)
+[![chatroom icon](https://patrolavia.github.io/telegram-badge/chat.png)][5] ![Join the chat at https://gitter.im/blockchained_india/edolas](https://badges.gitter.im/Join%20Chat.svg) [![Build Status](https://travis-ci.org/blockchainedindia/edolas.svg?branch=master)](https://travis-ci.org/blockchainedindia/edolas) [![dependencies Status](https://david-dm.org/blockchainedindia/edolas/status.svg)](https://david-dm.org/blockchainedindia/edolas) [![devDependencies Status](https://david-dm.org/blockchainedindia/edolas/dev-status.svg)](https://david-dm.org/blockchainedindia/edolas?type=dev)
 
 ![Edolas][logo]
 
